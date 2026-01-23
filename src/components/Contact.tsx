@@ -48,8 +48,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "E-mail",
-      value: "femapusinagem68@gmail.com",
-      href: "mailto:femapusinagem68@gmail.com",
+      value: "contato@femapusinagem.com.br",
+      href: "mailto:contato@femapusinagem.com.br",
     },
     {
       icon: MapPin,
