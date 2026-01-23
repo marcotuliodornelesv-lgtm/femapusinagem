@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="h-4 w-4 text-primary" />
-                femapusinagem68@gmail.com
+                contato@femapusinagem.com.br
               </li>
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-1" />
