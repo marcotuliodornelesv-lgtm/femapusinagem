@@ -54,8 +54,8 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Endereço",
-      value: "Av. São Jorge, Qd.47, N 1151, Vila Jardim São Judas Tadeu, Goiânia - GO",
-      href: "https://maps.google.com/?q=Av.+São+Jorge,+1151,+Goiânia",
+      value: "Av. São Jorge, Qd. 47, nº 1151, Vila Jardim São Judas Tadeu, Goiânia - GO, CEP 74685-490",
+      href: "https://maps.app.goo.gl/1tmkzF4hcQsNYhDd8?g_st=ac",
     },
   ];
 
@@ -221,7 +221,7 @@ const Contact = () => {
             {/* Map Placeholder */}
             <div className="bg-secondary rounded-lg overflow-hidden h-64 flex items-center justify-center">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.9071!2d-49.2933!3d-16.7139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDQyJzUwLjAiUyA0OcKwMTcnMzUuOSJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                src="https://www.google.com/maps?q=-16.6165588,-49.2447804&z=17&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
