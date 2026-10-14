@@ -25,11 +25,25 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const message = [
+      "Olá! Gostaria de solicitar um orçamento pelo site da FEMAP.",
+      "",
+      `Nome: ${formData.name}`,
+      `E-mail: ${formData.email}`,
+      `Telefone: ${formData.phone || "Não informado"}`,
+      "",
+      "Mensagem:",
+      formData.message,
+    ].join("\n");
+
+    const whatsappUrl = `https://wa.me/5562983319763?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+
     toast({
-      title: "Mensagem enviada!",
-      description: "Entraremos em contato em breve.",
+      title: "WhatsApp aberto",
+      description: "Confira a mensagem e toque em Enviar no WhatsApp para concluir.",
     });
-    setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
   const contactInfo = [
@@ -170,7 +184,7 @@ const Contact = () => {
                   />
                 </div>
                 <Button type="submit" size="lg" className="w-full group">
-                  Enviar Mensagem
+                  Enviar pelo WhatsApp
                   <Send className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </form>
