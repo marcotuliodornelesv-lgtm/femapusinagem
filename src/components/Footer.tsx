@@ -60,7 +60,7 @@ const Footer = () => {
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-1" />
                 <span className="text-sm">
-                  Av. São Jorge, Qd.47, N 1151, Goiânia - GO
+                  Av. São Jorge, Qd. 47, nº 1151, Vila Jardim São Judas Tadeu, Goiânia - GO, CEP 74685-490
                 </span>
               </li>
             </ul>
